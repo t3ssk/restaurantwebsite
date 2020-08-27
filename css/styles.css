@@ -25,6 +25,21 @@ body {
   #locations button {
     font-size: 0.8rem; }
 
+#hero {
+  background-image: url(../img/promo/nick-karvounis-72018.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Helvetica;
+  font-weight: 100;
+  padding-top: 20%;
+  padding-bottom: 25%; }
+  #hero h1 {
+    font-size: 50px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    width: 75%;
+    mix-blend-mode: difference; }
+
 @media only screen and (max-width: 1120px) {
   body {
     width: 100%; } }
