@@ -8,7 +8,23 @@ body {
   width: 80%;
   margin: auto; }
 
-#careers h1 {
+#careers h1, #rewards h1 {
   font-family: Helvetica;
   font-size: 4rem;
   font-weight: 100; }
+
+#logo {
+  font-size: 6rem;
+  -webkit-text-stroke: 1px #646464; }
+
+.bg-gray {
+  background-color: #424242; }
+
+#locations {
+  font-size: 0.8rem; }
+  #locations button {
+    font-size: 0.8rem; }
+
+@media only screen and (max-width: 1120px) {
+  body {
+    width: 100%; } }
