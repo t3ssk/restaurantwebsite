@@ -40,6 +40,17 @@ body {
     width: 75%;
     mix-blend-mode: difference; }
 
+#menu .card p {
+  font-size: 0.9rem; }
+
+.row.equal-height > [class*='col-'] {
+  display: flex; }
+
 @media only screen and (max-width: 1120px) {
   body {
     width: 100%; } }
+
+@media only screen and (min-width: 1200px) {
+  .row-override {
+    margin-left: -5px;
+    margin-right: -5px; } }
